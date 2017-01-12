@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="sp_key_choice_api"
+        android:title="@string/sp_choice_api"
+        android:entries="@array/api"
+        android:entryValues="@array/api_alias"/>
+    <SwitchPreference
+        android:key="sp_key_display_description"
+        android:title="@string/sp_display_description_title"
+        android:defaultValue="false"/>
+    <ListPreference
+        android:key="sp_key_choice_text_color"
+        android:title="@string/sp_choice_text_color_title"
+        android:entries="@array/text_color"
+        android:entryValues="@array/text_color_alias"/>
+
+</PreferenceScreen>
