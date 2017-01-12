@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="api">
+        <item>@string/api_cnn</item>
+    </string-array>
+
+    <string-array name="api_alias">
+        <item>@string/api_cnn_alias</item>
+    </string-array>
+
+    <string-array name="text_color">
+        <item>@string/color_black</item>
+        <item>@string/color_pink</item>
+        <item>@string/color_blue</item>
+        <item>@string/color_red</item>
+    </string-array>
+
+    <string-array name="text_color_alias">
+        <item>@string/color_black_alias</item>
+        <item>@string/color_pink_alias</item>
+        <item>@string/color_blue_alias</item>
+        <item>@string/color_red_alias</item>
+    </string-array>
+</resources>
